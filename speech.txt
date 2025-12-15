@@ -1,0 +1,8 @@
+git checkout -b add-speech cat > speech.txt <<'EOF' Good morning, everyone.
+Today we stand at the threshold of a new chapter — not because the path ahead is different, but because we choose to walk it together with renewed purpose. Each of you brings unique talents, perspectives, and resolve. When combined, these strengths become our greatest advantage.
+
+We will face challenges; that is certain. What defines us is how we respond. We will listen more, iterate faster, and lift each other up. We will celebrate the small wins and learn quickly from setbacks. Above all, we will keep our shared commitment to excellence, integrity, and kindness.
+
+Let us move forward with confidence, curiosity, and care for one another. Together we will build work we are proud of and a team that endures.
+
+Thank you. EOF git add speech.txt git commit -m "Add speech.txt" git push -u origin add-speech
